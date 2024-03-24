@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/try1"
+    tools:context=".Screen4Activity">
+
+    <EditText
+        android:id="@+id/editText_input"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/board"
+        android:hint="Enter text"
+        android:textColor="#fff"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColorHint="#fff"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/text_speech_custom"
+        android:elevation="40dp"
+        android:padding="10dp"
+        android:text="Speak Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_input" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download1"
+    tools:context=".lesson5">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lesson 5: UH Sound"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/images23"
+            android:orientation="vertical">
+
+            <!-- Lesson 5 paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The UH sound (IPA symbol: ʊ) can be found in words such as: put, full, sugar, foot, good, should.\n\nSay these words out loud (UH sound is bold):\n\n1) put\n\n2) full\n\n3) pull\n\n4) sugar\n\n5) bush\n\n6) book\n\n7) cook\n\n8) foot\n\n9) good\n\n10) look\n\n11) could\n\n12) should\n\n13) would\n\n14) cookie\n\n15) wool\n\n16) bull\n\n17) cookbook\n\n18) push\n\nNow say these sentences out loud (UH sound is bold):\n\n1) Put the book on your foot.\n\n2) I want to read the full book.\n\n3) He will pull the bull.\n\n4) To cook with sugar is not healthy.\n\n5) He could push his car.\n\n7) He would eat a cookie if he could.\n\n8) You should look at this cookbook.\n\n9) They said they would buy some wool.\n\n10) The bull pushed the bush.\n\nHave you finished them all? Cool!\n\nWell done! You have completed the UH sound lesson.\n\nLet's move on...\n\nYour next lesson: Lesson 06, OO Sound (moon, blue)" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

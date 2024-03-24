@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download1"
+    tools:context=".lesson2">
+
+  <TextView
+      android:id="@+id/titleTextView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Lesson 2: Word Stress and Syllables"
+      android:textSize="30sp"
+      android:textStyle="bold" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/titleTextView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/images23"
+        android:orientation="vertical">
+
+      <!-- Lesson 2 paragraph -->
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Syllables\nA syllable is a word, or part of a word, which contains a single vowel sound. It is a single unit of speech.\n\nEach word contains one syllable, or more.\n\n1 Syllable\nHere are examples of words with a single syllable:\n\npen\n\nman\n\npig\n\ncup\n\nhat\n\nIn English, a vowel sound can be made of more than one vowel letter.\nSo the following words have a single syllable as well:\n\nfeet\n\nmoon\n\ncake\n\nhave\n\nbreak\n\nbought\n\nAll of these words contain only one vowel sound, and therefore a single syllable.\n\n2 Syllables\nA word can have more than one syllable. The following words are examples of words with two syllables. Here are examples of words with 2 syllables. The different syllables are shown on the right, and they are separated with a space.\n\n garden:  gar  den\n\nhotel:  ho  tel\n\nconsist:  con  sist\n\nobject:  ob  ject\n\nfocus:  fo  cus\n\n3 Syllables\nExamples of words with three syllables:\n\nSeptember:  sep  tem  ber\n\ndepartment:  de  part  ment\n\ntelephone:  te  le  phone\n\ncamera:  ca  mer  a\n\nSaturday:  sa  tur  day\n\nhamburger:  hum  bur  ger\n\nvitamin:  vi  ta  min\n\n4 Syllables\nExamples of words with four syllables:\n\nkindergarten: kin  der  gar  ten\n\ninformation: in  for  ma  tion\n\nJanuary: ja  nu  ar  y\n\nAmerican: A  mer  i  can\n\ndiscovery: di  sco  ver  y\n\nThat is not all, of course. There can be words with even more syllables. But you get the point, right?\n\nWord Stress\nWhen a word has more than one syllable, not all syllables are pronounced with the same degree of force. The syllable which is pronounced with greater force is called the stressed syllable. You can also call it the accented syllable. 'Accent' in this case means 'emphasis'.\n\nWhen speaking, it is important to put the stress on the correct syllable. Otherwise, it would sound unnatural and might even be difficult to understand!\n\nHere are some examples of the word stress of some common words (the stressed part is bold):\n\nwater:  wa  ter\n\npeople:  peo  ple\n\ntelevision:  tel  e  vi  sion\n\ntogether:  to  geth  er\n\npotato:  po  ta  to\n\nbefore:  be  fore\n\nbegin:  be  gin\n\nNow, have you read all the explanations and watched the video? Very good!\n\nYou are almost ready to move on to the next lesson, but before that, make sure you know the answers to the following questions:\n\n1. What is a syllable?\n\n2. What is a stressed syllable/accented syllable?\n\n3. How can you know where to put the stress for each word while speaking?" />
+
+    </LinearLayout>
+  </ScrollView>
+
+</RelativeLayout>

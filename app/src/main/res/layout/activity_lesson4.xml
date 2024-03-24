@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download1"
+    tools:context=".lesson4">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lesson 4: Short I Sound"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/images23"
+            android:orientation="vertical">
+
+            <!-- Lesson 4 paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The short I sound (IPA symbol: I) can be found in words such as: in, sit, hit, city, click, trip, winter, busy, minute.\n\nSay these words out loud (short I sound is bold):\n\n1) in\n\n2) is\n\n3) if\n\n4) sit\n\n5) hit\n\n6) click\n\n7) spin\n\n8) ill\n\n9) trip\n\n10) busy\n\n11) minute\n\n12) will\n\n13) with\n\n14) sister\n\n15) give\n\n16) listen\n\n17) miss\n\nNow say these sentences out loud (short I sound is bold):\n\n1) Come here and sit.\n\n2) Kate is my sister.\n\n3) If you stay I will stay too.\n\n4) Try to hit that ball with your bat.\n\n5) We will have a very nice trip.\n\n7) I am really busy at this minute.\n\n8) They will sit with you.\n\n9) She will give us the bill.\n\n10) Stay here and listen to me.\n\n11) They miss the winter.\n\nHave you finished them all? Cool!\n\nWell done! You have completed the short I sound lesson.\n\nLet's move on..." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

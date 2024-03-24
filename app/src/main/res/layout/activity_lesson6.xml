@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download1"
+    tools:context=".lesson6">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lesson 6: OO Sound"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/images23"
+            android:orientation="vertical">
+
+            <!-- Lesson 6 paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The OO sound (IPA symbol: u:) can be found in words such as: moon, food, too, blue, shoe, igloo, balloon, kangaroo, mushroom.\n\nSay these words out loud (OO sound is bold):\n\n1) spoon\n\n2) moon\n\n3) food\n\n4) too\n\n5) blue\n\n6) shoe\n\n7) tool\n\n8) igloo\n\n9) who\n\n10) mood\n\n11) suit\n\n12) balloon\n\n13) noon\n\n14) soon\n\n15) clue\n\n16) flu\n\n17) rude\n\n18) fool\n\nNow say these sentences out loud (OO sound is bold):\n\n1) I will eat some fruit.\n\n2) The fool bought a new suit.\n\n3) They eat food with a spoon.\n\n4) There is no moon at noon.\n\n5) My right shoe is blue, and my left shoe is blue, too.\n\n7) We need more tools to finish the igloo.\n\n8) Who is coming soon?\n\n9) He is in a bad mood because of the flu, so I will bring him a balloon.\n\n10) She is so rude only because she has no clue what to do.\n\nHave you finished them all? Cool!\n\nWell done! You have completed the OO sound lesson." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

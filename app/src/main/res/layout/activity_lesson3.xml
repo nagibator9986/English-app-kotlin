@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download1"
+    tools:context=".lesson3">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lesson 3: Long E Sound"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/images23"
+            android:orientation="vertical">
+
+            <!-- Lesson 3 paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The long E sound (IPA symbol: iː) can be found in words such as: see, meet, heat, read, key.\n\nSay these words out loud (long E sound is bold):\n\n1) see\n\n2) meet\n\n3) meat\n\n4) heat\n\n5) read\n\n6) eat\n\n7) key\n\n8) free\n\n9) leave\n\n10) breathe\n\n11) feet\n\n12) please\n\n13) sneeze\n\n14) freeze\n\n15) bleed\n\n16) need\n\n17) feel\n\nNow say these sentences out loud (long E sound is bold):\n\n1) I want to see my feet.\n\n2) I need to sneeze.\n\n3) Read my book, please.\n\n4) Give me the key, please.\n\n5) They feel good when they meet.\n\n7) We need some heat.\n\n8) He eats all the meat.\n\n9) We need to be free.\n\n10) Please don't leave.\n\n11) When I freeze I start to sneeze.\n\nHave you finished them all? Cool!\n\nWell done! You have completed the long E sound lesson.\n\nLet's move on..." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

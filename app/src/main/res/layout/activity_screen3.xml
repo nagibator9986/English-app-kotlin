@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test2"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context=".Screen3Activity">
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="174dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/button_activity3_custom"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/Lesson1_English_Pronunciation"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="174dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/button_activity3_custom"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/Lesson2_Word_Stress"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="174dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/button_activity3_custom"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:text="@string/Lesson3_Long_E_sounds"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn6" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="174dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/button_activity3_custom"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:text="@string/Lesson4_Short_I_sounds"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn7" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="174dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/button_activity3_custom"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/Lesson5_UH_sounds"
+        android:textColor="@color/white"
+        app:iconPadding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn8" />
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="174dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/button_activity3_custom"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/Lesson6_OO_sounds"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
